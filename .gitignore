@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+mobile/node_modules/
+
+# Python Virtual Environments & Cache
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Expo / Mobile Build artifacts
+.expo/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/web-build/
+dist/
+mobile/dist/
+
+# Environment variables & secrets (keep .env.example)
+.env
+backend/.env
+*.env.local
+*.env.*.local
+
+# Large datasets & archive files (>100MB GitHub limit)
+*.zip
+*.tar.gz
+*.rar
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
